@@ -1,0 +1,286 @@
+*
+{
+    margin: 0;
+    /* font-family:; */
+}
+body
+{
+    background-color: rgba(107, 112, 152, 0.407);
+}
+.container
+{
+    height: 200px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.navbar
+{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgba(60, 0, 255, 0.122);
+    border: 1px solid transparent;
+}
+.home 
+{
+    
+    cursor: pointer;
+}
+.movies 
+{
+    
+    cursor: pointer;
+}
+.shows
+{
+    
+    cursor: pointer;
+}
+.home:hover{
+    background-color: white;
+    height: 20px;
+    border-radius: 50px;
+    border:5px solid white;
+}
+.movies:hover
+{
+    background-color: white;
+    height: 20px;
+    border-radius: 50px;
+     border:5px solid white; 
+}
+.shows:hover 
+{
+    background-color: white;
+    height: 20px;
+    border-radius: 50px;
+    border:5px solid white;
+}
+.buttons
+{
+    display: flex;
+    align-items: center;
+}
+.search
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    background-color: rgba(0, 0,0, 0.1);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.search:hover
+{
+    background-color: black;
+    color: white;
+}
+.profile
+{
+width: 40px;
+height: 40px;
+border-radius: 50px;
+/* background-color: ; */
+border: 5px solid rgba(0, 0,0, 0.1);
+cursor: pointer;
+}
+.profile:hover 
+{
+border:5px solid black;
+}
+.cat 
+{
+    font-size: 15px;
+    color:rgb(0, 115, 255);
+}
+.hero
+{
+height: 200px;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: space-evenly;
+margin-left: 130px;
+}
+.herosearch
+{
+/* border:5px solid white; */
+    width: 1250px;
+    height: 50px;   
+    border-radius: 50px;
+    /* border-top-left-radius: 50px; */
+    /* border-bottom-left-radius: 50px; */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor:text;
+}
+.herosearch:focus-within
+{
+    border: 5px solid rgba(127, 255, 212, 0.226);
+}
+p
+{
+    margin-left: 10px;
+}
+.herobuttons
+{
+  display: flex;
+  /* height: 500px; */
+    gap:10px;
+} 
+.allb
+{
+border-radius: 50px;
+width: 50px;
+height: 40px;
+ /* background-color: black;  */
+ /* color:white;  */
+cursor: pointer;
+ background-color: rgba(107, 107, 152, 0.227); 
+border:2px solid transparent;
+}
+.moviesb
+{
+border-radius: 50px;
+width: 60px;
+height: 40px;
+cursor: pointer;
+background-color: rgba(107, 107, 152, 0.21);
+border:2px solid transparent;
+}
+.seriesb
+{
+border-radius: 50px;
+width: 60px;
+cursor: pointer;
+background-color: rgba(107, 107, 152, 0.275);
+border:2px solid transparent;
+}
+.allb:hover
+{
+ background-color: black; 
+ color:white; 
+}
+.moviesb:hover
+{
+background-color: black;
+color: white;
+}
+.seriesb:hover 
+{
+background-color: black;
+color:white;
+}
+footer
+{
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 200px;
+align-items: center;
+}
+.footer2nd
+{
+display: flex;
+cursor:pointer;
+}
+.footer2nd p:hover
+{
+    text-decoration: underline;
+} 
+
+.footer3rd
+{
+display: flex;
+color: rgb(107, 107, 152);
+cursor: pointer;
+}
+.footer3rd p:hover
+{
+text-decoration: underline;
+}
+#ct
+{
+color: rgb(107, 107, 152);
+}
+input 
+{
+
+width: 95%; 
+ border: none;  
+outline:none;
+height: 48px;
+border-radius: 50px;
+font-size: 15px;
+color:rgb(107, 107, 152); 
+/* height: 100%; */
+/* border-top-right-radius: 50px; */
+/* border-bottom-right-radius: 50px; */
+/* border:1px solid transparent; */
+}
+
+.glass
+{
+ margin-left: 10px; 
+ margin-right: 10px;
+}
+
+.pp
+{
+font-size: 25px;
+}
+.sh 
+{
+margin-right: 10px;
+}
+button:focus
+{
+background-color: black;
+color: white;
+}
+@media (max-width:400px)
+{
+.buttons
+{
+    width: 100%;
+}
+.search
+{
+
+    font-size: 10px;
+    width: 70%;
+}
+.profile
+{
+    font-size: 15px;
+    width: 50%;
+}
+#mobile
+{
+   /* font-size: 5px;  */
+    width: 80%;
+}
+.hero
+{
+    margin-left: 50px;
+}
+.navbar
+{
+    font-size: 10px;
+    width: 80%;
+    margin-right: 5px;
+}
+.herosearch
+{
+    width: 95%;
+}
+
+}
